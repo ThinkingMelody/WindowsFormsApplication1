@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f8d420c4-adad-49f8-9b50-8b1a40c6d860" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://pks.tai-one.com/PKWS/announce.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="announce.disco" MetadataType="Disco" ID="60ded6ce-66a9-43a2-b3a3-c71b011bb715" SourceId="1" SourceUrl="https://pks.tai-one.com/PKWS/announce.svc?disco" />
+    <MetadataFile FileName="announce.xsd" MetadataType="Schema" ID="c181d1d7-c7db-49e2-992f-dc4d762ac1e6" SourceId="1" SourceUrl="https://pks.tai-one.com/PKWS/announce.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="67f4f5e4-5011-4edc-a3ab-125fa6dc4d66" SourceId="1" SourceUrl="https://pks.tai-one.com/PKWS/announce.svc?wsdl" />
+    <MetadataFile FileName="announce1.xsd" MetadataType="Schema" ID="c5bad164-4604-42f8-845f-c8556eb46adb" SourceId="1" SourceUrl="https://pks.tai-one.com/PKWS/announce.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
